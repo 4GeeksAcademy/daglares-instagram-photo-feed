@@ -1,0 +1,54 @@
+body{
+    background: #bdbdbb;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+div.header{
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.post{
+    width: 500px;
+    height: auto;
+    background: white;
+    margin-top: 40px;  
+}
+
+div.post .postheader{
+    display: flex;
+    flex-direction: row;
+}
+
+div.post .postHeader div:first-child{
+    width: 80%;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+div.post .postHeader div:last-child{
+    width: 20%;
+    display: inline-flex;
+    justify-content: end;
+    color: gray;
+    padding-right: 15px;
+}
+
+div.post img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    padding: 10px;
+}
